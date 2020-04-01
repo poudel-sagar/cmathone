@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cmathone">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/sets"
+        android:layout_width="370dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="80dp"
+        android:background="@drawable/measurement"
+        android:text="sets"
+        android:textSize="45dp" />
+        <Button
+            android:id="@+id/root"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/sets"
+            android:background="@drawable/pressure"
+            android:layout_marginTop="20dp"
+            android:text="roots"
+            android:textSize="45dp" />
+
+        <Button
+            android:id="@+id/real_number_system"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/root"
+            android:background="@drawable/gradient1"
+            android:text="real number"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/integers"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/real_number_system"
+            android:background="@drawable/gradient2"
+            android:text="integers"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/ratio_proportion"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/integers"
+            android:background="@drawable/heat"
+            android:text="ratio"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/profit_loss"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/ratio_proportion"
+            android:background="@drawable/sound"
+            android:text="profit/loss"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/unitary_method"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/profit_loss"
+            android:background="@drawable/measurement"
+            android:text="u-method"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/simple_interest"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/unitary_method"
+            android:background="@drawable/pressure"
+            android:text="simple interest"
+            android:textSize="31dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/algebra"
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/simple_interest"
+            android:background="@drawable/gradient1"
+            android:text="algebra"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/geometry"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/algebra"
+            android:background="@drawable/gradient2"
+            android:text="Geometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/coordinate_geometry"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/geometry"
+            android:background="@drawable/heat"
+            android:text="co-ordinate geometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/area_perimeter"
+            android:layout_width="370dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/coordinate_geometry"
+            android:background="@drawable/sound"
+            android:text="Area Perimeter"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/solid_shapes"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/area_perimeter"
+            android:background="@drawable/measurement"
+            android:text="Solid Shapes"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/transformation"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/solid_shapes"
+            android:background="@drawable/pressure"
+            android:text="Transformation"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/drawing"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/transformation"
+            android:background="@drawable/gradient1"
+            android:text="Drawing"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/drawing"
+            android:background="@drawable/gradient2"
+            android:text="statistics"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
